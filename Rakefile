@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "credit_card_icons"
-  gem.homepage = "http://github.com/kristianmandrup/credit_card_icons"
+  gem.homepage = "http://github.com/nzaillian/credit_card_icons"
   gem.license = "MIT"
   gem.summary = %Q{Credit Card icons for Rails 3+}
   gem.description = %Q{Credit Card icons ready for use with Rails asset pipeline}
-  gem.email = "kmandrup@gmail.com"
-  gem.authors = ["Kristian Mandrup"]
+  gem.email = "nzaillian@gmail.com"
+  gem.authors = ["Nicholas Zaillian", "Kristian Mandrup"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

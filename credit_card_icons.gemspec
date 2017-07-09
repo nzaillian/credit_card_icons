@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Kristian Mandrup"]
-  s.date = "2012-08-21"
+  s.authors = ["Nicholas Zaillian (forked from Kristian Mandrup)"]
+  s.date = "2017-06-09"
   s.description = "Credit Card icons ready for use with Rails asset pipeline"
-  s.email = "kmandrup@gmail.com"
+  s.email = "nzaillian@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -318,7 +318,7 @@ Gem::Specification.new do |s|
     "vendor/assets/stylesheets/straight/straight_cards_32.css",
     "vendor/assets/stylesheets/straight/straight_cards_64.css"
   ]
-  s.homepage = "http://github.com/kristianmandrup/credit_card_icons"
+  s.homepage = "http://github.com/nzaillian/credit_card_icons"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"

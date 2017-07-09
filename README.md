@@ -1,20 +1,21 @@
 # Credit Card icons
 
-Credit Card icons for Rails 3.
 
-This gem is a Rails 3 engine and includes a host of asset files including standalone image sets (icons), CSS sprites and stylesheets for the CSS sprites.
+**Note: this project fixes the [credit\_card\_icons gem](https://github.com/kristianmandrup/credit_card_icons) for the Rails 4/5+ asset pipeline.**
+
+This gem is a Rails engine and includes a host of asset files including standalone image sets (icons), CSS sprites and stylesheets for the CSS sprites.
 
 ## Usage
 
 In `Gemfile`.
 
-`gem 'credit_card_icons'`
+`gem 'credit_card_icons', git: 'https://github.com/nzaillian/credit_card_icons.git'`
 
 Install via bundler:
 
 `bundle`
 
-Include the stylesheet(s) of choice in your Rails 3 stylesheets application manifest file, fx `application.css` or similar:
+Include the stylesheet(s) of choice in your Rails stylesheets application manifest file, fx `application.css` or similar:
 
 ```css
 /*
@@ -84,6 +85,6 @@ Feel free to improve this gem by modifying the css rules and/or include view hel
 
 ## Copyright
 
-Copyright (c) 2012 Kristian Mandrup. See LICENSE.txt for
+Copyright (c) 2017 Nicholas Zaillian, forked from Kristian Mandrup (https://github.com/kristianmandrup/credit_card_icons). See LICENSE.txt for
 further details.
 
